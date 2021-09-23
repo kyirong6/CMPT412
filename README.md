@@ -5,4 +5,4 @@
 
 
 #### A1 - Digit Recognition
-Digit Recognition from scratch in MatLab
+Digit Recognition using Convolutional Neural Networks (CNN) from scratch in MatLab.
