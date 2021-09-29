@@ -24,7 +24,7 @@ function test_pooling_1()
     input.data(12 + 72, 2) = 0.75;
     input.width = 6;
     input.height = 6;
-    input.channel = 3;
+    input.channel = 3;          
     input.batch_size = 2;
     
     layer.type = 'POOLING';
