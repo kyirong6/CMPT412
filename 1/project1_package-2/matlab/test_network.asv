@@ -18,7 +18,5 @@ for i=1:100:size(xtest, 2)
     predictions(:, i:i+99) = prediction;
 end
 
-%disp(predictions)
-%disp(ytest)
 C = confusionmat(ytest, predictions);
 confusionchart(C, [0:9])

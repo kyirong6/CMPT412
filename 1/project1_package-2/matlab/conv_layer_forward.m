@@ -82,5 +82,6 @@ for sample_idx = 1:batch_size
     output.height = h_out;
     output.width = w_out;
     output.channel = num;
+    output.batch_size = batch_size;
 end
 
